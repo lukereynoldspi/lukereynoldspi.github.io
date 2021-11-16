@@ -10,7 +10,7 @@ body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  color: #606060;
+  color: #000000;
   position: relative;
 }
 html, body {
@@ -25,8 +25,8 @@ hr {
   margin-bottom: 40px;
 }
 .title {
-  color: #303030;
-  font-size: 60px;
+  color: #000000;
+  font-size: 40px;
   padding-bottom: 40px;
   text-transform: uppercase;
 }
@@ -42,29 +42,29 @@ hr {
   padding: 0;
 }
 .navbar-default .navbar-brand {
-  color: #212227;
+  color: #000000;
   font-weight: bold;
   font-size: 30px;
   line-height: 45px;
   padding: 10px 0 0 12px;
 }
 .navbar-default .navbar-nav li a {
-  color: #202020;
+  color: #000000;
   font-size: 13px;
   font-weight: bold;
   line-height: 45px;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav li a:hover { color: #eb5424; }
+.navbar-default .navbar-nav li a:hover { color: #f53938; }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #eb5424;
+  color: #f53938;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #eb5424;
+  color: #f53938;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -72,7 +72,7 @@ hr {
   padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background: #eb5424;
+  background: #f53938;
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -85,7 +85,7 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: #5f5f5f;
+  color: #000000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -103,13 +103,13 @@ hr {
  }
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #eb5424;
+  color: #f53938;
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
 }
 .tm-view-more-btn {
-  background: #eb5424;
+  background: #f53938;
   color: #ffffff;
   border: none;
   border-radius: 2px;
@@ -122,7 +122,7 @@ hr {
 }
 .tm-view-more-btn:hover {
   background: #ffffff;
-  color: #eb5424;
+  color: #f53938;
 }
 /* END HOME */
 
@@ -132,23 +132,26 @@ hr {
   padding-bottom: 100px;
 }
 .tm-work-h3 {
-  color: #eb5424;
+  color: #f53938;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
 .work-wrapper {
-  border: 1px solid #666;
-  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
   text-align: center;
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #eb5424; }
+
+/*ICONS */
+
+.work-wrapper:hover { border-color: #f53938; }
 .work-wrapper .fa {
-  color: #888888;
+  color: #000000;
   font-size: 60px;
   padding-bottom: 40px;
 }
@@ -164,7 +167,7 @@ hr {
   padding: 0;
   margin: 0;
 }
-.tm-portfolio .col-md-3,
+.tm-portfolio .md-3,
  .tm-portfolio .col-sm-3 {
   padding: 0;
   margin: 0;
@@ -197,7 +200,7 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #eb5424;
+  background: #f53938;
   color: #ffffff;
   top: 0;
   right: 0;
@@ -257,7 +260,7 @@ hr {
 .filter-wrapper li a:focus,
  .filter-wrapper li a:hover,
  .filter-wrapper li a.selected {
-  background: #eb5424;
+  background: #f53938;
   border-color: transparent;
   color: #ffffff;
 }
@@ -297,7 +300,7 @@ hr {
 /* END PORTFOLIO */
 
 /* START RESUME */
-.tm-red-text { color: #eb5424; }
+.tm-red-text { color: #f53938; }
 .tm-info-label {
   font-weight: bold;
   display: inline-block;
@@ -308,7 +311,7 @@ hr {
   border-radius: 2px;
   height: 4px;
 }
-.progress-bar-danger { background: #eb5424; }
+.progress-bar-danger { background: #f53938; }
 .tm-progress-label {
   font-size: 12px;
   font-weight: bold;
@@ -389,7 +392,7 @@ hr {
 }
 .form-control {
   background: transparent;
-  border: 1px solid #666;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 2px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -399,7 +402,7 @@ hr {
 }
 .form-control:focus,
  .form-control:hover {
-  background: #202020;
+  background: #b61919;
   color: #ffffff;
 }
 input { height: 50px; }
