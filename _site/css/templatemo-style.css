@@ -161,21 +161,22 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  position: relative; 
   color: #000000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;  
   height: 100vh;
+}
+
+#home-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; /* push it behind the content */
 }
 .tm-home-title,
  .tm-home-subtitle {
