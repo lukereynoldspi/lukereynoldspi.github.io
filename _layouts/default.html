@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ page.title }}</title>
+
+	<link rel="icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
+
+	<link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/css/templatemo-style.css' | relative_url }}">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,700" rel="stylesheet" type="text/css">
+</head>
+
+<body data-spy="scroll" data-target="#rock-navigation">
+
+	{% include header.html %}
+
+	{{ content }}
+
+	{% include footer.html %}
+
+	<script src="{{ '/js/jquery.js' | relative_url }}"></script>
+	<script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+	<script src="{{ '/js/smoothscroll.js' | relative_url }}"></script>
+	<script src="{{ '/js/jquery.nav.js' | relative_url }}"></script>
+	<script src="{{ '/js/isotope.js' | relative_url }}"></script>
+	<script src="{{ '/js/imagesloaded.min.js' | relative_url }}"></script>
+	<script src="{{ '/js/custom.js' | relative_url }}"></script>
+</body>
+</html>
